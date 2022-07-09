@@ -100,7 +100,7 @@ The GC will eventualy handle unclosed files but it is much better practice to ex
 
     $ go env -w GO111MODULE=auto
 
-(Module-aware commands)[https://go.dev/ref/mod#mod-commands]
+[Module-aware commands](https://go.dev/ref/mod#mod-commands)
 GO111MODULE controls if go ignores modules or not. I found this out by running
 
     go help environment
